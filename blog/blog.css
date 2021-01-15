@@ -1,0 +1,146 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding: 8rem 25rem;
+  }
+
+.child {
+    flex: 1 0 30%; /* explanation below */
+    margin: 25px;
+    min-height: 150px;
+    min-width: 250px;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    opacity: .9;
+
+}
+
+.topper {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding: 8rem 25rem;
+  }
+
+.midder {
+    flex: 1 0 30%; /* explanation below */
+    margin: 25px;
+    min-height: 150px;
+    min-width: 250px;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    opacity: .9;
+}
+.midder > h1{
+    font-size: 60px;
+}
+
+
+.profilepic{
+    height: 100%;
+    width: 100%;
+}
+
+.bloglink{
+    color:yellow;
+}
+
+.desc, p{
+    float:right;
+    display: inline-flex;
+}
+
+a{
+    text-decoration: none;   
+}
+
+.social-media i {
+    font-size: 2rem;
+    transition: color 650ms;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 10px;
+}
+
+/* Blog Content */
+.content1 {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding: 0rem 25rem;
+  }
+
+.content2 {
+    flex: 1 0 30%; /* explanation below */
+    margin: 25px;
+    min-height: 150px;
+    min-width: 500px;
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    opacity: .9;
+}
+
+.img4{
+    width: 100%;
+    height: 100%;
+}
+
+.content2 > ul {
+    float: left;
+    text-align: left;
+}
+
+.firstbullet{
+    list-style-type: none;
+    font-size: 30px;
+    padding: 10px;
+}
+
+ul{
+    padding: 30px;
+}
+/*End Blog Content */
+
+/* gallery */
+
+.biglists > li, ul{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+

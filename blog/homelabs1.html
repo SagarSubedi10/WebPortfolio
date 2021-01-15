@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Planning for Potential Risk</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="../blog/blog.css" rel="stylesheet">
+
+
+    </head>
+    <body>
+
+        
+
+      
+        <div class="topper" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="midder">
+                <h1>Home Labs - Web Server Administration</h1>
+                <button><a href="../blog/index.html">back to blog</a></button> <br><br>
+                
+            </div>
+        </div>
+
+        <div class="content1">
+            <div class="content2">
+                <h2>
+                    Here is a list of novice level tasks that I completed when I was first beggining to learn Web Server Administration. A good starting point for 
+                    someone who is looking to begin in this field as well.
+                </h2>
+
+                <ul class="biglists">
+                    <li>
+                        Install Windows Server (08, 12,16, 19) using VirtualBox
+                        <ul>
+                            <li>
+                                Install Abyss Web Server and IIS here. Make sure localhost displays your webpage                            
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Apache Web Server
+                        <ul>
+                            <li>
+                                Host website using Apache Web Server on Linux Server by Installing Ubuntu or OpenSuse in VirtualBox                            
+                            
+                                <ul>
+                                    <li>
+                                        You will have to install and configure Apache
+                                    </li>
+                                    <li>
+                                        SU (switch users)
+                                    </li>
+                                    <li>
+                                        Rcapache2 start (to start the apache service)
+                                    </li>
+                                    <li>
+                                        Insserv apache2 (to start apache automatically when you restart the server)
+                                    </li>
+                                    <li>
+                                        Browse to the /srv/www/htdocs/index.htm directory to modify the page
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Congratulations you have an Apache Web Server running inside your Linux Server
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Host Website by a URL (DNS)
+                        <ul>
+                            <li>
+                                Install DNS if it is not already installed and then configure the DNS with the records
+                                <ul>
+                                    <li>
+                                        Yourdomain.com ----- host(A) ----- Your IP
+                                    </li>
+                                    <li>
+                                        ns. ----------------------- host(A) ---- Your IP
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Modify bindings in the webserver to have IP the same as configured in the IIS and domain 
+                                same as what was created in the DNS as a record (Yourdomain.com)
+                            </li>
+                            <li>
+                                Go to the created domain instead of using localhost!
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Active Directory and Intranets
+                        <ul>
+                            <li>
+                                Install active directory within your windows servers and configure your domain controller 
+                            </li>
+                            <li>
+                                Create a new site in the IIS and create the HTML file
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Apache on Windows 
+                        <ul>
+                            <li>
+                                Note your IP address and install apache for windows from the internet. Configure apache to run on port 8080 or 8000, 
+                                whichever is not in use. Find the directory for Apache in Windows. It should be running on localhost:8000 or localhost:8080
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Secure the Web Environment 
+                        <ul>
+                            <li>
+                                Manage firewall by doing things like creating new outbound or inbound rules to block or allow ports. Example, you can create 
+                                a new outbound rule to block port “xxx” to block Skype connections. 
+                            </li>
+                            <li>
+                                You can also secure the web environment by going into the control panel and checking for windows updates.
+                            </li>
+                            <li>
+                                You can utilize the Best Practices Analyzer in your server manager console by clicking on Run a BPA scan. 
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Monitor Web Server  
+                        <ul>
+                            <li>
+                                Within event viewer you can create a custom view to show all errors that have occurred. 
+                            </li>
+                            <li>
+                                The resource monitor will show you the health of your CPU, Memory, ETC
+                            </li>
+                            <li>
+                                You can add IIS counters to the performance monitors 
+                            </li>
+                        </ul>
+                    </li>
+                    
+
+
+                </ul>
+
+            </div> 
+
+               
+        </div>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    </body>
+
+</html>
