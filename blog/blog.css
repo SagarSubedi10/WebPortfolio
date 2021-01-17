@@ -10,7 +10,7 @@ body{
 
 
 .parent {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     color: white;
     padding: 8rem 25rem;

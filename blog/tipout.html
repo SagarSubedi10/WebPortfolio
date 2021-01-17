@@ -1,96 +1,138 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Tip-Out Web App</title>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link href="../blog/blog.css" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sagar Subedi</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link href="../styles/blog.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
 
-    </head>
-    <body>
-
-        
-
-        <header id="top"></header>
-        <div class="topper" data-aos="zoom-in" data-aos-duration="3000">
-            <div class="midder">
-                <h1>Tip Out Web Application</h1>
-                <button><a href="../blog/index.html">back to blog</a></button> <br><br>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/i7fG3xSeIlQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="bloglandings">
+        <h1>Tip Out Web Application</h1>
+        <button><a href="index.html">Back to Blog</a></button> <br>
+        <h6>Tip Out Web Application Demo</h6>
+        <iframe class ="video" src="https://www.youtube.com/embed/i7fG3xSeIlQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
-                
-            </div>
-        </div>
+      </div>
+    </header>
 
-        <div class="content1">
-            <div class="content2">
-                <h2>
-                    Introduction to The Project <br><br>
-                    Texas Jacks Barbeque is a BBQ Joint located in Annandale and has been one of my favorite spots for some time so it was a very rewarding experience for me to help them
-                    on the technical side of things.
-                    The goal for me and my team was to create a Tip-Out web applications for Texas Jacks Barbeque. With our point of contact having so many requirements for the 
-                    web application on top of 2020 being one of the craziest years, front to back, this project took place over the course of one year (1/2020 - 12/2020). To give a high 
-                    level overview of the issue we were tasked to solve: create a Web Application to replace the current tip out system and integrate their POS (point of sale) into 
-                    the system for automation.  
-                </h2>
-            </div>
-            <div class="content2">
-                <img class="img4" src="../images/tipout_item4.jpg">
-                <h5>As you may notice there is mention of using a Django framework in the listed timeline. I created an entirely seperate post with a more detailed responce to this <a href="../blog/planningrisks.html" class="bloglink">here</a> </h5>
-                <br>
-            </div>
-            <div class="content2">
-                <h2>
-                    Current Business Problems & Proposed Solutions <br><br>
-                    The manager at that time created an extensive excel sheet in liue of not having a script or program to sync up with the POS and automate the tip out for each
-                    employee at the end of their shift. Relevant information about an individuals tips throughout their shift was printed and pulled as a CSV file, from aloha, which was
-                    then manually input into the excel sheet. A big time sink for any manager to be handeling especially considering they are a busy resturant. Our proposed solutions
-                </h2>
-                
-                <ul>
-                    <li class="firstbullet">
-                        Our Proposed Solutions
-                    </li>
-                    <li>
-                        Web hosting for web application, tip out system
-                    </li>
-                    <li>
-                        Web application created by using NodeJS framework
-                    </li>
-                    <li>
-                        Bot to extract Aloha data for web application
-                    </li>
-                    <li>
-                        MongoDB database to store data
-                    </li>
-                </ul>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-duration="3000">
+                      <h6>Introduction</h6>
+                      <h1> Texas Jacks Barbeque is a BBQ Joint located in Annandale and has been one of my favorite spots for some time so it was a very rewarding experience for me to help them
+                        on the technical side of things.
+                        The goal for me and my team was to create a Tip-Out web applications for Texas Jacks Barbeque. With our point of contact having so many requirements for the 
+                        web application on top of 2020 being one of the craziest years, front to back, this project took place over the course of one year (1/2020 - 12/2020). To give a high 
+                        level overview of the issue we were tasked to solve: create a Web Application to replace the current tip out system and integrate their POS (point of sale) into 
+                        the system for automation.  
+                      </h1>
+                </div>
 
-                <ul>
-                    <li class="firstbullet">
-                        Unexpected Roadblocks
-                    </li>
-                    <li>
-                        Aloha had a stricter firewall and specalized security therefore <br> the bot we created to extract the data had to be <br> tested on a native device.
-                    </li>
-                    <li>
-                        Switching frameworks from Django to NodeJS 
-                    </li>
-                    <li>
-                        2020 limiting the production of this project
-                    </li>
-                </ul>
-        </div>
+              </div>
+              <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-duration="3000">
+                  <img class="img4" src="../images/tipout_item4.jpg">
+                  <p>
+                      As you may notice there is mention of using a Django framework in the listed timeline. I created an entirely seperate post with a more detailed 
+                      responce to this <a href="../blog/planningrisks.html" class="bloglink">here</a> 
+                  </p>
+                </div>
 
+              </div>
+              <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-duration="3000">
+                      <h6>Current Business Problems & Proposed Solutions</h6>
+                      <h1>
+                        The manager at that time created an extensive excel sheet in liue of not having a script or program to sync up with the POS and automate the tip out for each
+                        employee at the end of their shift. Relevant information about an individuals tips throughout their shift was printed and pulled as a CSV file, from aloha, which was
+                        then manually input into the excel sheet. A big time sink for any manager to be handeling especially considering they are a busy resturant.
+                      </h1>
+                      <div class="lists">
+                              <ul>
+                                <li class="firstbullet">
+                                    Our Proposed Solutions
+                                </li>
+                                <li>
+                                    Web hosting for web application, tip out system
+                                </li>
+                                <li>
+                                    Web application created by using NodeJS framework
+                                </li>
+                                <li>
+                                    Bot to extract Aloha data for web application
+                                </li>
+                                <li>
+                                    MongoDB database to store data
+                                </li>
+                            </ul>
+            
+                            <ul>
+                                <li class="firstbullet">
+                                    Unexpected Roadblocks
+                                </li>
+                                <li>
+                                    Aloha had a stricter firewall and specalized security therefore <br> the bot we created to extract the data had to be <br> tested on a native device.
+                                </li>
+                                <li>
+                                    Switching frameworks from Django to NodeJS 
+                                </li>
+                                <li>
+                                    2020 limiting the production of this project
+                                </li>
+                            </ul>
+                    </div>
+                </div>
 
+              </div>
 
+      </section>
+      
+    
+    
+    <section class="contact" id="contact">
+      <div class="container">
+          <div class="section-heading">
+            <h1>Contact</h1>
+            <h6>Let's work together</h6>
+          </div>
+            
+          <form action="https://formspree.io/f/xleoalqj" method="POST">
+            <label for="name">Enter Name</label>
+            <input type="text" name="name" placeholder="Please Enter Your Name">
+            <label for="email">Email</label>
+            <input type="email" name="_replyto" placeholder="Please Enter Your Email">
+            <label for="message">Enter Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Please Enter Your Message"></textarea>
+            <input type="submit" value="Send">
+          </form>
 
+      </div>
+    </section>
+
+    <footer class="copyright">
+      
+        <a href="index.html" class="up"><i class="fa fa-chevron-up"></i></a>
+      
+      <p>&copy; 2020 Sagar Subedi</p>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-
-
-    </body>
-
+    <script src="../main.js"></script>
+  </body>
 </html>

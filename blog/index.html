@@ -8,105 +8,128 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <link href="../blog/blog.css" rel="stylesheet">
+    
+    <link href="../styles/blog.css" rel="stylesheet">
   </head>
   <body>
+    <header>
 
-        <div class="topper" data-aos="fade" data-aos-duration="3000">
-            <div class="midder">
-                <h1>Brain Dump</h1>
-                <h3>Aptly named this blog brain dump as this is a collection of my career, technical, and hobbist experiences</h3>
-                <button><a href="../index.html">Go to Web Portfolio</a></button> <br>
-                
+      <div class="landing-text">
+        <h1>Brain Dump Blog</h1>
+        <h6>Aptly named this blog brain dump as this is a collection of my career, technical, and hobbist experiences</h6>
+        <button><a href="../index.html">Go to Web Portfolio</a></button> 
+      </div>
+    </header>
 
-                <div class="social-media">
-                    <ul class="nav-list">
-                        <li>
-                            <h3>Sagar Subedi</h3>
-                        </li>
-                      <li>
-                        <a href="https://www.linkedin.com/in/sagarsubedi/" target="_blank" class="icon-link">
-                        <i class="fab fa-linkedin"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://github.com/SagarSubedi10" target="_blank" class="icon-link">
-                        <i class="fab fa-github-square"></i>
-                        </a>
-                      </li>
-                    </ul>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-duration="3000">
+                      <h6>Web Development</h6>
+                      <h1>Setting up this blog page!</h1>
+                      <p>
+                        My process creating this blog page and how I did it
+                      </p>
+                      <a href="settingupblogpage.html" class="cta">Blog Post</a>
                 </div>
 
-            </div>
+              </div>
+              <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-duration="3000">
+                      <h6>Web Development</h6>
+                      <h1>Tip-Out Web App</h1>
+                      <p>
+                        A detailed breakdown of my experience and process building a Web Application for Texas Jacks Barbeque
+                      </p>
+                      <a href="tipout.html" class="cta">Blog Post</a>
+                </div>
+
+              </div>
+              <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-duration="3000">
+                      <h6>CATEGORY NAME FOR THIS TYPE?!</h6>
+                      <h1>Planning for Potential Risks</h1>
+                      <p>
+                        Why I swapped from using a Django Framework to utilizing Node.js
+                      </p>
+                      <a href="planningrisks.html" class="cta">Blog Post</a>
+                </div>
+
+              </div>
+              <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-duration="3000">
+                      <h6>Cloud Technology</h6>
+                      <h1>AWS Cerfified Cloud Practitioner</h1>
+                      <p>
+                        What it took to get my AWS CCP
+                      </p>
+                      <a href="AWScert.html" class="cta">Blog Post</a>
+                </div>
+
+              </div>
+              <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-duration="3000">
+                      <h6>Web Development</h6>
+                      <h1>Rock Paper Scissors Game</h1>
+                      <p>
+                        Trinkering with Javascript and creating a simple game of rock paper scissors with a twist
+                      </p>
+                      <a href="rockpaperscissor.html" class="cta">Blog Post</a>
+                </div>
+
+              </div>
+              <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-duration="3000">
+                      <h6>Total Technology</h6>
+                      <h1>Home Labs</h1>
+                      <p>
+                        List of basic web server administrative tasks I completed within my home labs
+                      </p>
+                      <a href="homelabs1.html" class="cta">Blog Post</a>
+                </div>
+
+              </div>
+  
         </div>
+      </section>
+      
+    
+    
+    <section class="contact" id="contact">
+      <div class="container">
+          <div class="section-heading">
+            <h1>Contact</h1>
+            <h6>Let's work together</h6>
+          </div>
+            
+          <form action="https://formspree.io/f/xleoalqj" method="POST">
+            <label for="name">Enter Name</label>
+            <input type="text" name="name" placeholder="Please Enter Your Name">
+            <label for="email">Email</label>
+            <input type="email" name="_replyto" placeholder="Please Enter Your Email">
+            <label for="message">Enter Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Please Enter Your Message"></textarea>
+            <input type="submit" value="Send">
+          </form>
 
-        <div class="parent">
-                <div class="child" data-aos="fade-right" data-aos-duration="3000">
-                    <h1>Setting up this blog page!</h1><br>
-                    <h3>My process creating this blog page and how I did it</h3><br>
-                    <a href="settingupblogpage.html" class="bloglink">Blog Post</a>
-                    <h4>Date: 1/4/2021</h4>
+      </div>
+    </section>
 
-
-                </div>
-                <div class="child" data-aos="fade-left" data-aos-duration="3000">
-                    <h1>Tip-Out Web App</h1><br>
-                    <h3>A detailed breakdown of my experience and process building a Web Application for Texas Jacks Barbeque</h3><br>
-                    <a href="tipout.html" class="bloglink">Blog Post</a>
-                    <h4>Date: 12/17/2020</h4>
-
-                </div>
-                <div class="child" data-aos="fade-right" data-aos-duration="3000">
-                    <h1>Planning for Potential Risks</h1><br>
-                    <h3>Why I swapped from using a Django Framework to utilizing Node.js
-                    </h3><br>
-                    <a href="planningrisks.html" class="bloglink">Blog Post</a>
-                    <h4>Date: 12/17/2020</h4>
-
-
-                </div>
-                <div class="child" data-aos="fade-left" data-aos-duration="3000">
-                    <h1>AWS Cerfified Cloud Practitioner</h1><br>
-                    <h3>What it took to get my AWS CCP</h3><br>
-                    <a href="AWScert.html" class="bloglink">Blog Post</a>
-                    <h4>Date: 11/5/2019</h4>
-
-
-                </div>
-                <div class="child" data-aos="fade-right" data-aos-duration="3000">
-                    <h1>Rock Paper Scissors Game</h1><br>
-                    <h3>Trinkering with Javascript and creating a simple game of rock paper scissors with a twist</h3><br>
-                    <a href="rockpaperscissor.html" class="bloglink">Blog Post</a>
-                    <h4>Date: 8/25/2018</h4>
-
-                </div>
-                <div class="child" data-aos="fade-left" data-aos-duration="3000">
-                    <h1>Home Labs</h1><br>
-                    <h3>List of basic web server administrative tasks I completed within my home labs</h3><br>
-                    <a href="homelabs1.html" class="bloglink">Blog Post</a>
-                    <h4>Date: 4/20/2017</h4>
-
-
-                </div>
-
-        </div>
-
-    </h2>
+    <footer class="copyright">
+      
+        <a href="index.html" class="up"><i class="fa fa-chevron-up"></i></a>
+      
+      <p>&copy; 2020 Sagar Subedi</p>
+    </footer>
 
     
-      
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="main.js"></script>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
-
+    </script>
+    <script src="../main.js"></script>
   </body>
 </html>

@@ -1,69 +1,106 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Setting Up This Blog Page</title>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link href="../blog/blog.css" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sagar Subedi</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link href="../styles/blog.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
 
-    </head>
-    <body>
+      <div class="bloglandings">
+        <h1>Setting up Blog Page</h1>
+        <button><a href="index.html">Back to Blog</a></button> <br>
+        <img class ="bloglandingIMG" src="../images/smallerblog.png" alt="">
+      </div>
+    </header>
 
-        
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-duration="3000">
+                      <h1> 
+                        HTML CSS and JavaScript are all vital parts of creating this blog page. Most of what I did here was learned from constantly tinkering with websites of the like and a 
+                        little bit from schooling. I utilized flexboxes while structuring the skeleton of my HTML to ensure the blog posts would wrap around and be responsive to the user’s
+                        screen resolution. The theory is to have an outer box with its content oriented either horizontal or vertical with each internal box doing the same creating a dotted
+                        box sort of alignment, of which you can be highly customizable. My favorite feature within the blog portion of my web portfolio is the listed out posts that have an on
+                        scroll effect, something I have never utilized in the past. I used AOS (an animate on scroll library) and simply attached the "data-aos" style to whichever element
+                        I wanted to have that effect. I would have loved to utilize SSI (server side includes) although GitHub pages do not support the use 
+                        of PHP. Which leads me to the idea of migrating to another site eventually. I imported font awesome CSS for the social media icons and various styling that can be 
+                        found through out the site even outside of the blog portion. As this post is being created, I am working to utilize JavaScript to include some better features and 
+                        effects. For example, creating a photo gallery for my Tip Out Web Application to include all the relevant coding that went along with that project.  
+                      </h1>
+                </div>
 
-      
-        <div class="topper" data-aos="zoom-in" data-aos-duration="3000">
-            <div class="midder">
-                <h1>Setting Up This Blog Page</h1>
-                <button><a href="../blog/index.html">back to blog</a></button> <br><br>
-                <img src="../images/smallerblog.png" alt="">
-                
-            </div>
-        </div>
+              </div>
+              <div class="portfolio-item">
+                    <div class="portfolio-description" data-aos="fade-left" data-aos-duration="3000">
+                        <div class="iframediv">
+                            <h1>
+                                Some videos I found helpful earlier, back when I was first learning how to structure sites or am looking to get a refresher:
+                            </h1><br>
+                            
+                            <h2>Flexboxes</h2>
+                            <iframe width="500" height="300" src="https://www.youtube.com/embed/JJSoEo8JSnc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h2>JavaScript</h2>
+                            <iframe width="500" height="300" src="https://www.youtube.com/embed/XQEfWd1lh4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h2>Adding Social Media Icons</h2>
+                            <iframe width="500" height="300" src="https://www.youtube.com/embed/woVuUbDOeMk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                        </div>
+                    </div>
 
-        <div class="content1">
-            <div class="content2">
-                <h2>
-                    HTML CSS and JavaScript are all vital parts of creating this blog page. Most of what I did here was learned from constantly tinkering with websites of the like and a 
-                    little bit from schooling. I utilized flexboxes while structuring the skeleton of my HTML to ensure the blog posts would wrap around and be responsive to the user’s
-                    screen resolution. The theory is to have an outer box with its content oriented either horizontal or vertical with each internal box doing the same creating a dotted
-                    box sort of alignment, of which you can be highly customizable. My favorite feature within the blog portion of my web portfolio is the listed out posts that have an on
-                    scroll effect, something I have never utilized in the past. I used AOS (an animate on scroll library) and simply attached the "data-aos" style to whichever element
-                    I wanted to have that effect. I would have loved to utilize SSI (server side includes) although GitHub pages do not support the use 
-                    of PHP. Which leads me to the idea of migrating to another site eventually. I imported font awesome CSS for the social media icons and various styling that can be 
-                    found through out the site even outside of the blog portion. As this post is being created, I am working to utilize JavaScript to include some better features and 
-                    effects. For example, creating a photo gallery for my Tip Out Web Application to include all the relevant coding that went along with that project. 
-                    <br><br>
-                </h2>
-
-            </div> 
-            <div class="content2">
-                <h2>
-                Some videos I found helpful earlier, back when I was first learning how to structure sites or am looking to get a refresher:
-                </h2>
-                <br><br>
-                <h2>Flexboxes</h2>
-                <iframe width="500" height="300" src="https://www.youtube.com/embed/JJSoEo8JSnc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h2>JavaScript</h2>
-                <iframe width="500" height="300" src="https://www.youtube.com/embed/XQEfWd1lh4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h2>CSS</h2>
-                <iframe width="500" height="300" src="https://www.youtube.com/embed/woVuUbDOeMk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            
-            </div>
+              </div>
+              
                
+
         </div>
 
+      </section>
+      
+    
+    
+    <section class="contact" id="contact">
+      <div class="container">
+          <div class="section-heading">
+            <h1>Contact</h1>
+            <h6>Let's work together</h6>
+          </div>
+            
+          <form action="https://formspree.io/f/xleoalqj" method="POST">
+            <label for="name">Enter Name</label>
+            <input type="text" name="name" placeholder="Please Enter Your Name">
+            <label for="email">Email</label>
+            <input type="email" name="_replyto" placeholder="Please Enter Your Email">
+            <label for="message">Enter Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Please Enter Your Message"></textarea>
+            <input type="submit" value="Send">
+          </form>
 
+      </div>
+    </section>
 
+    <footer class="copyright">
+      
+        <a href="index.html" class="up"><i class="fa fa-chevron-up"></i></a>
+      
+      <p>&copy; 2020 Sagar Subedi</p>
+    </footer>
 
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-
-
-    </body>
-
+    <script src="../main.js"></script>
+  </body>
 </html>
