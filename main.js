@@ -8,9 +8,11 @@ $(document).ready(function() {
       $('.menu-toggler').removeClass('open');
       $('.top-nav').removeClass('open');
     });
+  });
   
+
     // Get the element where you want to display the view count
-const viewCountElement = document.querySelector('.landing-text h6');
+const viewCountElement = document.getElementById('viewCount');
 
 // Make a GET request to your API endpoint
 fetch('https://laz9kkqvca.execute-api.us-east-1.amazonaws.com/views')
@@ -24,5 +26,5 @@ fetch('https://laz9kkqvca.execute-api.us-east-1.amazonaws.com/views')
   })
   .catch(error => {
     console.error('Error:', error);
-  });
+ });
   
