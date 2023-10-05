@@ -23,4 +23,3 @@ AWS Lambda
 DynamoDB 
 Github Actions
 
-https://sagarsubedi10.github.io/WebPortfolio/
